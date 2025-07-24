@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts\Inter-VariableFont_opsz,wght.ttf') format('ttf');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@import "./base.css";
+
+
+
+.home .main_heading{
+  font-size: 128px;
+  font-weight: bold;
+}
+
+.home .main_sub-heading{
+  font-size: 40px;
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+    font-family: var(--font-family);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
